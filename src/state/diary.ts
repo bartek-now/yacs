@@ -2,7 +2,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { create } from 'zustand';
 import { Diary, Meal, parseDiary, validateMeal } from '../domain/meals';
 
-export const STORAGE_KEY = 'yacc.diary.v1';
+export const STORAGE_KEY = 'yacs.diary.v1';
 type Storage = Pick<typeof AsyncStorage, 'getItem' | 'setItem'>;
 type State = Diary & {
   ready: boolean;

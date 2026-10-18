@@ -10,4 +10,4 @@ await mkdir('assets/images', { recursive: true });
 for (const size of [192, 512])
   await sharp(icon).resize(size, size).png().toFile(`public/icons/icon-${size}.png`);
 await sharp(icon).resize(180, 180).png().toFile('public/icons/apple-touch-icon.png');
-await sharp(icon).png().toFile('assets/images/yacc-icon.png');
+await sharp(icon).png().toFile('assets/images/yacs-icon.png');

@@ -1,7 +1,7 @@
 {
   "id": "/",
-  "name": "YACC — Yet Another Calorie Counter",
-  "short_name": "YACC",
+  "name": "YACS — Yet Another Calorie Scanner",
+  "short_name": "YACS",
   "description": "Your day, one meal at a time.",
   "start_url": "/",
   "scope": "/",

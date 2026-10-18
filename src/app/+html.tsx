@@ -9,13 +9,13 @@ export default function Root({ children }: { children: ReactNode }) {
         <meta name="theme-color" content="#193D34" />
         <meta
           name="description"
-          content="YACC — Yet Another Calorie Counter. Your day, one meal at a time."
+          content="YACS — Yet Another Calorie Scanner. Your day, one meal at a time."
         />
         <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-title" content="YACC" />
+        <meta name="apple-mobile-web-app-title" content="YACS" />
         <link rel="manifest" href="/manifest.webmanifest" />
         <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
-        <title>YACC · Your daily food diary</title>
+        <title>YACS · Your daily food diary</title>
         <ScrollViewStyleReset />
         <style
           dangerouslySetInnerHTML={{

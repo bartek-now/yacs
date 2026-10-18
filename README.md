@@ -1,6 +1,6 @@
-# YACC
+# YACS
 
-Yet Another Calorie Counter. An Expo SDK 57 / React Native / TypeScript app targeting web, iOS, and Android. The first working slice is a local meal diary and installable PWA.
+Yet Another Calorie Scanner. An Expo SDK 57 / React Native / TypeScript app targeting web, iOS, and Android. The first working slice is a local meal diary and installable PWA.
 
 ## Run locally
 

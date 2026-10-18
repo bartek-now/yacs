@@ -92,10 +92,10 @@ test('storage failure retains the editor and corrupt data is not overwritten', a
   await expect(page.getByRole('alert')).toContainText('Could not save');
   await expect(page.getByLabel('Meal name', { exact: true })).toHaveValue('Eggs on toast');
   await page.reload();
-  await page.evaluate(() => localStorage.setItem('yacc.diary.v1', '{broken'));
+  await page.evaluate(() => localStorage.setItem('yacs.diary.v1', '{broken'));
   await page.reload();
   await expect(page.getByRole('alert')).toContainText('Existing data has not been overwritten');
-  expect(await page.evaluate(() => localStorage.getItem('yacc.diary.v1'))).toBe('{broken');
+  expect(await page.evaluate(() => localStorage.getItem('yacs.diary.v1'))).toBe('{broken');
 });
 test('installed service worker supports offline reload and manual logging', async ({
   page,

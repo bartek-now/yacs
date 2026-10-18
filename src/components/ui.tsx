@@ -35,9 +35,9 @@ export function Page({ children }: { children: ReactNode }) {
           <View style={styles.page}>
             <View style={styles.brand}>
               <Text style={styles.logo}>
-                yacc<Text style={{ color: '#719B48' }}>.</Text>
+                yacs<Text style={{ color: '#719B48' }}>.</Text>
               </Text>
-              <Text style={styles.eyebrow}>YET ANOTHER{'\n'}CALORIE COUNTER</Text>
+              <Text style={styles.eyebrow}>YET ANOTHER{'\n'}CALORIE SCANNER</Text>
             </View>
             {!ready ? (
               <ActivityIndicator accessibilityLabel="Loading diary" color={colors.ink} />

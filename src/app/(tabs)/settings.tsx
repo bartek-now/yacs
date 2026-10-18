@@ -17,7 +17,7 @@ function Preferences() {
       <View style={styles.card}>
         <Text style={styles.section}>Daily calorie target</Text>
         <Text style={styles.muted}>
-          The initial 2,000 kcal target is a placeholder. Choose your own target; YACC does not
+          The initial 2,000 kcal target is a placeholder. Choose your own target; YACS does not
           calculate a personal recommendation.
         </Text>
         <Field
@@ -58,9 +58,9 @@ function Preferences() {
         </Text>
       </View>
       <View style={styles.card}>
-        <Text style={styles.section}>YACC · 0.1</Text>
+        <Text style={styles.section}>YACS · 0.1</Text>
         <Text style={styles.muted}>
-          Yet Another Calorie Counter. A little less friction around food.
+          Yet Another Calorie Scanner. A little less friction around food.
         </Text>
         <Notice>Photo analysis is a demo. You can log real meals manually.</Notice>
       </View>

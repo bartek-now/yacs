@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "YACC",
-    "slug": "yacc",
+    "name": "YACS",
+    "slug": "yacs",
     "version": "0.1.0",
     "orientation": "portrait",
-    "icon": "./assets/images/yacc-icon.png",
-    "scheme": "yacc",
+    "icon": "./assets/images/yacs-icon.png",
+    "scheme": "yacs",
     "userInterfaceStyle": "light",
     "ios": {
       "supportsTablet": true
@@ -13,7 +13,7 @@
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#193D34",
-        "foregroundImage": "./assets/images/yacc-icon.png"
+        "foregroundImage": "./assets/images/yacs-icon.png"
       },
       "predictiveBackGestureEnabled": false
     },
@@ -27,8 +27,8 @@
       [
         "expo-image-picker",
         {
-          "photosPermission": "Choose a meal photo for YACC.",
-          "cameraPermission": "Take a meal photo with YACC.",
+          "photosPermission": "Choose a meal photo for YACS.",
+          "cameraPermission": "Take a meal photo with YACS.",
           "microphonePermission": false
         }
       ],
