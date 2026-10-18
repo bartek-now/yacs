@@ -15,7 +15,8 @@
         "backgroundColor": "#193D34",
         "foregroundImage": "./assets/images/yacs-icon.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.barteknow.yacs"
     },
     "web": {
       "bundler": "metro",
@@ -41,6 +42,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "790de21f-3b2b-4dd6-9e9c-79805408367f"
+      }
+    },
+    "owner": "bartek-now-team"
   }
 }

@@ -46,3 +46,6 @@ yarn-error.*
 /artifacts/
 /native-check/
 .env
+
+# Local IDE settings
+/.idea/
